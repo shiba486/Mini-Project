@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bulb on off with DOM</title>
+    <style>
+        body{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+        }
+        img{
+            width: 200px;
+            height: 200px;
+            margin-bottom: 58px 
+        }
+        button{
+            width: 231px;
+            padding: 10px 41px;
+            background-color: blue;
+            color: #fff;
+            border-radius: 30px;
+            border: 1px solid purple;
+            font-size: 30px;
+            display: flex;
+            justify-content: center;
+            position: absolute;
+            top: 70%;
+}
+        
+    </style>
+</head>
+<body>
+   <div>
+    <img id="bulb" src="../images/bulb-off.jpeg" alt="">
+    <button id="bulb-switch">Turn ON</button>
+   </div>
+    <script src="./bulb.js"></script>
+</body>
+</html>

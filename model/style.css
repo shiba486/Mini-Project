@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    height: 100vh;
+}
+#myModel{
+    display: none;
+}
+.model{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: aqua;
+}
+.model .model-content{
+    background-color: #ddd;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #333;
+    width: 80%;
+}
+.model .model-content .close{
+    color: red;
+    font-size: 30px;
+    cursor: pointer;
+}
+button#openModelBtn {
+    background: #222;
+    color: #fff;
+    padding: 15px 20px;
+    border-radius: 3px;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+    transition: all .1s linear;
+}
